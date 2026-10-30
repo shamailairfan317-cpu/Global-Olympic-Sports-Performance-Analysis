@@ -1,0 +1,109 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Header Navbar */
+#header {
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    transition: all 0.3s;
+}
+
+#header .logo span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+#navbar ul li a {
+    color: #cbd5e1;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover, #navbar ul li a.active {
+    color: #38bdf8;
+}
+
+.btn-explore {
+    background-color: #10b981;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 8px 20px !important;
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.9)), url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=1920&auto=format&fit=crop') no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+.color-dots .dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+.dot.blue { background-color: #3b82f6; }
+.dot.yellow { background-color: #eab308; }
+.dot.purple { background-color: #a855f7; }
+.dot.green { background-color: #10b981; }
+.dot.red { background-color: #ef4444; }
+
+.text-highlight {
+    color: #f59e0b;
+}
+
+/* Badge Tags */
+.badge-tag {
+    background-color: #fef3c7;
+    color: #d97706;
+    font-weight: 700;
+    font-size: 0.75rem;
+    padding: 6px 14px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Medal Card */
+.medal-card {
+    background: radial-gradient(circle, #1e293b 0%, #0f172a 100%);
+    border: 1px solid #334155;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.medal-img-placeholder {
+    width: 100%;
+    height: 220px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+/* Stats Bar */
+.stats-bar {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border: 1px solid #334155;
+}
+
+/* Insight Cards */
+.insight-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #fff;
+}
+
+.insight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08) !important;
+}
